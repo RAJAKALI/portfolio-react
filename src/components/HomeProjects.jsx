@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { FaAngleDoubleRight } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { FaAngleDoubleDown, FaAngleDoubleRight, FaAngleDoubleUp } from "react-icons/fa";
 
 const projects = [
   {
@@ -46,7 +44,7 @@ const HomeProjects = () => {
   const [showAll, setShowAll] = useState(false);
 
   return (
-    <div className="px-6 md:px-12 py-8 bg-white">
+    <div className="px-6 md:px-14 py-8 bg-white">
       {/* Header Section */}
       <div className="flex justify-between items-center">
         <h1 className="text-violet-900 font-display font-bold text-lg md:text-xl flex flex-col">
@@ -54,10 +52,10 @@ const HomeProjects = () => {
           <span className="text-gray-500 text-xs md:text-sm">Academic Projects, Personal Projects, tasks etc...</span>
         </h1>
         <button 
-          className="bg-gradient-to-r from-violet-600 to-blue-200 rounded-full py-1 px-4 md:px-6 text-gray-800 font-sans flex justify-center items-center"
+          className="bg-gradient-to-r from-violet-600 to-teal-400 rounded-lg py-1 px-4 md:px-6 text-slate-50 font-sans flex justify-center items-center"
           onClick={() => setShowAll(!showAll)}
         >
-          <span className="pr-2 text-sm whitespace-nowrap">{showAll ? "Show Less" : "View All"}</span><FaArrowRight/>
+          <span className="pr-2 text-sm whitespace-nowrap">{showAll ? "Show Less" : "View All"}</span>{showAll ? <FaAngleDoubleUp/> : <FaAngleDoubleDown/> }
         </button>
       </div>
 

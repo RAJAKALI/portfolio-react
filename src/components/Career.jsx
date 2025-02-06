@@ -4,30 +4,30 @@ import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 const Career = () => {
   const events = [
     {
-      university: "Tech University",
-      cgpa: "9.8",
-      stream: "Computer Science",
+      university: "Learnyst (Intern)",
+      cgpa: "Apr-2024 to Aug-2024",
+      stream: "Software Test Engineer",
       image:
-        "https://img.freepik.com/free-vector/college-campus-concept-illustration_114360-10238.jpg?ga=GA1.1.370144144.1727452674&semt=ais_hybrid",
+        "https://img.freepik.com/free-vector/airport-tower-concept-illustration_114360-9465.jpg?ga=GA1.1.370144144.1727452674&semt=ais_hybrid",
     },
     {
-      university: "RGUKT IIIT SRIKAKULAM",
-      cgpa: "8.02",
-      stream: "Computer Scinece & Engineering",
+        university: "RGUKT IIIT SRIKAKULAM (B-tech)",
+        cgpa: "8.02",
+        stream: "Computer Scinece & Engineering 2018-22",
+        image:
+          "https://img.freepik.com/free-vector/college-campus-concept-illustration_114360-10238.jpg?ga=GA1.1.370144144.1727452674&semt=ais_hybrid",
+      },
+    {
+      university: "RGUKT IIIT SRIKAKULAM (PUC)",
+      cgpa: "7.42",
+      stream: "MPC 2016-18",
       image:
         "https://img.freepik.com/free-vector/college-students-concept-illustration_114360-10235.jpg?ga=GA1.1.370144144.1727452674&semt=ais_hybrid",
     },
     {
-      university: "Government High School",
+      university: "Government High School (Xth)",
       cgpa: "9.7",
-      stream: "Science",
-      image:
-        "https://img.freepik.com/free-vector/high-school-concept-illustration_114360-8269.jpg?ga=GA1.1.370144144.1727452674&semt=ais_hybrid",
-    },
-    {
-      university: "Government High School",
-      cgpa: "9.7",
-      stream: "Science",
+      stream: "Science 2015-16",
       image:
         "https://img.freepik.com/free-vector/high-school-concept-illustration_114360-8269.jpg?ga=GA1.1.370144144.1727452674&semt=ais_hybrid",
     },
@@ -114,17 +114,17 @@ const Career = () => {
               index % 2 === 0 ? "md:text-left" : "md:text-left"
             }`}
           >
-            <h3 className="text-2xl font-bold text-violet-600 mb-3">
+            <h3 className="text-2xl font-bold text-violet-600 mb-3 font-display">
               {event.university}
             </h3>
             <div className="space-y-2 text-gray-600">
               <p className="flex justify-start items-center">
-                <span className="font-semibold">Stream:</span>
-                <span className="text-violet-600">{event.stream}</span>
+                <span className="font-semibold"></span>
+                <span className="text-gray-600 font-sans">{event.stream}</span>
               </p>
               <p className="flex justify-start items-center">
-                <span className="font-semibold">CGPA:</span>
-                <span className="text-violet-600">{event.cgpa}</span>
+                <span className="font-semibold"></span>
+                <span className="text-gray-600 font-sans">{event.cgpa}</span>
               </p>
             </div>
           </div>

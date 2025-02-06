@@ -65,3 +65,13 @@
   ::-webkit-scrollbar-track {
     background-color: #e0e0e0;
   }
+
+  .swiper-pagination {
+    position: relative !important;
+    margin-top: 10px;
+  }
+  .swiper-pagination-bullet {
+    background-color: #7c3aed !important; /* Violet Color */
+    width: 10px;
+    height: 10px;
+  }

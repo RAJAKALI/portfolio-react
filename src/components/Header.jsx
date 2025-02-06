@@ -5,12 +5,23 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { name: "Home", path: "/" },
-    { name: "Projects", path: "/projects" },
-    { name: "Career", path: "/career" },
-    { name: "Accomplishments", path: "/accomplishments" },
-    { name: "Contact", path: "/contact" },
+    { name: "Home", id: "home" },
+    { name: "Projects", id: "projects" },
+    { name: "Career", id: "career" },
+    { name: "Accomplishments", id: "accomplishments" },
+    { name: "Contact", id: "contact" },
   ];
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop - 60, // Adjusting for fixed header
+        behavior: "smooth",
+      });
+      setIsOpen(false); // Close mobile menu
+    }
+  };
 
   return (
     <nav className="bg-slate-50 shadow-sm fixed w-full z-50">
@@ -24,14 +35,14 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {links.map((link) => (
-              <a
+              <button
                 key={link.name}
-                href={link.path}
+                onClick={() => scrollToSection(link.id)}
                 className="text-gray-600 hover:text-violet-600 text-lg font-medium relative group transition duration-300 font-sans"
               >
                 {link.name}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </button>
             ))}
           </div>
 
@@ -45,7 +56,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation - Fullscreen Slide from Right */}
+      {/* Mobile Navigation */}
       <div
         className={`fixed top-0 right-0 h-full w-full bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
@@ -62,15 +73,14 @@ const Header = () => {
 
           {/* Menu Items */}
           {links.map((link) => (
-            <a
+            <button
               key={link.name}
-              href={link.path}
+              onClick={() => scrollToSection(link.id)}
               className="text-gray-900 text-lg font-medium tracking-wide relative group"
-              onClick={() => setIsOpen(false)}
             >
               {link.name}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
-            </a>
+            </button>
           ))}
         </div>
       </div>
@@ -79,3 +89,4 @@ const Header = () => {
 };
 
 export default Header;
+
