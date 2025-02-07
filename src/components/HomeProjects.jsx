@@ -195,7 +195,7 @@ const HomeProjects = () => {
               </div>
               <div>
                 <div className="flex justify-start items-center">
-                  <h2 className="text-xl font-bold text-violet-900 mb-2">
+                  <h2 className="text-xl font-bold text-violet-900 mb-2 truncate">
                     {selectedProject.title}
                   </h2>
                   <a

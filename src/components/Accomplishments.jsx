@@ -35,7 +35,7 @@ const Accomplishments = () => {
   };
 
   return (
-    <div className="w-full mx-auto md:px-14">
+    <div className="w-full mx-auto md:px-14 px-6">
       <div className="flex items-center justify-between">
         <h1 className="text-violet-900 font-display font-bold text-xl flex flex-col py-2 my-2">
           <p className="flex items-center justify-start">
