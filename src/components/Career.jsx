@@ -65,7 +65,7 @@ const Career = () => {
           <FaAngleDoubleLeft />
         </p>
         <span className="text-gray-500 text-sm">
-          Expericace , Graduation, Schooling etc...
+        Experience , Graduation, Schooling etc...
         </span>
       </h1>
       {/* Violet Dotted Path */}

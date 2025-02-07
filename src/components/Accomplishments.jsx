@@ -2,16 +2,19 @@ import { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { FaAngleDoubleRight, FaPause, FaPlay } from "react-icons/fa";
+import Reactpic from "../assets/React.png";
+import Javapic from "../assets/java.png";
+import Pythonpic from "../assets/python.png";
+import Gitpic from "../assets/git.jpg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const certifications = [
-  { id: 1, title: "React.js Certification", issuer: "Udemy", image: "https://cdn.create.vista.com/downloads/635c290b-14f2-4d8a-833d-9fe4b84c84a8_1024.jpeg" },
-  { id: 2, title: "JavaScript Mastery", issuer: "Coursera", image: "https://campus.w3schools.com/cdn/shop/files/Use_the_W3Schools_Certification_Program_to_validate_and_document_your_competence.The_exams_are_adaptive_and_graded_from_intermediate_to_professional_to_advanced._Passing_the_exams_gra_beef23b2-a901-497b-9af4-725e6fe7ed10_1500x1003.png?v=1721294972" },
-  { id: 3, title: "Full-Stack Development", issuer: "freeCodeCamp", image: "https://cdn.educba.com/img/Free-Web-Design-Course-Certificate.jpg" },
-  { id: 4, title: "Python for Data Science", issuer: "IBM", image: "https://cdn.create.vista.com/downloads/635c290b-14f2-4d8a-833d-9fe4b84c84a8_1024.jpeg" },
-  { id: 5, title: "Frontend Development", issuer: "Scrimba", image: "https://cdn.educba.com/img/Free-Web-Design-Course-Certificate.jpg" },
+  { id: 1, title: "React.js ", issuer: "Scaler", image:Reactpic },
+  { id: 2, title: "Java", issuer: "Udemy", image:Javapic },
+  { id: 3, title: "Python", issuer: "Udemy", image: Pythonpic},
+  { id: 4, title: "Git", issuer: "Udemy", image: Gitpic },
 ];
 
 const Accomplishments = () => {
@@ -70,7 +73,7 @@ const Accomplishments = () => {
         {certifications.map((cert) => (
           <SwiperSlide key={cert.id}>
             <div className="rounded-xl text-center">
-              <img src={cert.image} alt={cert.title} className="w-full h-60 object-cover mb-4 rounded-xl" />
+              <img src={cert.image} alt={cert.title} className="w-full h-60 object-fit mb-4" />
               <h3 className="text-lg font-bold text-violet-600">{cert.title}</h3>
               <p className="text-gray-500">{cert.issuer}</p>
             </div>

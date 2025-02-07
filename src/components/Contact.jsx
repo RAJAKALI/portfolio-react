@@ -78,25 +78,18 @@ const Contact = () => {
 
         <div className="mt-4 flex gap-4">
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/rajakali/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="text-slate-50 text-2xl hover:text-slate-200 transition" />
           </a>
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/RAJAKALI"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub className="text-slate-50 text-2xl hover:text-slate-200 transition" />
-          </a>
-          <a
-            href="https://twitter.com/yourprofile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTwitter className="text-slate-50 text-2xl hover:text-slate-200 transition" />
           </a>
         </div>
       </div>

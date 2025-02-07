@@ -14,7 +14,7 @@ const IntroRight = () => {
   
         {/* Sliding Resume Overlay */}
         <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-center text-white opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-1/2 transition-all duration-300 pb-5">
-          <a href="/path-to-your-resume.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-900 text-xl font-semibold flex justify-center items-center">
+          <a href="https://drive.google.com/file/d/1JPppaH_w9QOSBV7zVAkxIz0nsGIrsq8F/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-gray-900 text-xl font-semibold flex justify-center items-center">
             <span>Resume</span>
             <FaFileAlt size={20} className="text-gray-900" />
           </a>
