@@ -83,7 +83,7 @@ const IntroLeft = () => {
         {/* Know More -> Scroll to Projects */}
         <button
           onClick={() => scrollToSection("projects")}
-          className="py-4 px-6 border bg-white rounded-lg mr-2 flex justify-center items-center space-x-1 hover:bg-slate-50 hover:text-violet-600"
+          className="py-4 px-6 border bg-white rounded-lg mr-2 flex justify-center items-center space-x-1 hover:bg-slate-50 hover:text-violet-600 whitespace-nowrap"
         >
           <span>Know More</span>
           <FaAngleDoubleDown />
@@ -92,7 +92,7 @@ const IntroLeft = () => {
         {/* Get In Touch -> Scroll to Contact */}
         <button
           onClick={() => scrollToSection("contact")}
-          className="py-4 px-6 border bg-violet-600 rounded-lg text-white hover:bg-violet-400"
+          className="py-4 px-6 border bg-violet-600 rounded-lg text-white hover:bg-violet-400 whitespace-nowrap"
         >
           Get In Touch
         </button>
