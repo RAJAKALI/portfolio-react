@@ -39,7 +39,7 @@ const Accomplishments = () => {
             <span className="pr-2">Accomplishments</span>
             <FaAngleDoubleRight />
           </p>
-          <span className="text-gray-500 text-sm">Experience, Graduation, Schooling etc...</span>
+          <span className="text-gray-500 text-sm">Certifications, WorkShops, etc...</span>
         </h1>
         
         {/* Play/Pause Button */}

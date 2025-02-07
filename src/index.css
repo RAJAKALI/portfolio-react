@@ -75,3 +75,9 @@
     width: 10px;
     height: 10px;
   }
+
+  .custom-toast {
+    background-color: rgb(105, 17, 211) !important;
+    color: white !important;
+  }
+  
