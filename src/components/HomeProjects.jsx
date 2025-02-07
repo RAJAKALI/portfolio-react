@@ -14,74 +14,80 @@ import { Navigation } from "swiper/modules";
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Website",
+    title: "ProjPort",
     images: [
+      "https://www.digitalsilk.com/wp-content/uploads/2020/06/website-development-process-hero-image.png",
       "https://www.the-future-of-commerce.com/wp-content/uploads/2020/01/what-is-e-commerce-SOCIAL.jpg",
       "https://www.the-future-of-commerce.com/wp-content/uploads/2020/01/what-is-e-commerce-SOCIAL.jpg",
     ],
-    skills: ["React", "Tailwind", "JavaScript", "Redux", "Firebase"],
+    skills: ["React.js", "Tailwind", "JavaScript", "Php", ],
     description:
-      "A modern web application built with React and Tailwind CSS, featuring dynamic UI components, API integration, and a responsive design. Supports various e-commerce functionalities, including a cart, user authentication, and secure payment options.",
-    github: "https://github.com/your-repo",
+      "Developed a platform providing job opportunities, project requests, and student services with a modern interface to enhance user experience.",
+    github: "https://github.com/RAJAKALI",
   },
   {
     id: 2,
-    title: "MERN Stack App",
+    title: "E-Commerce web",
     images: [
+      "https://img.freepik.com/premium-photo/laptop-with-digital-storefront-shopping-cart-credit-cards-surrounded-by-plants-colorful-background_34950-23714.jpg?ga=GA1.1.370144144.1727452674&semt=ais_incoming",
+      "https://www.the-future-of-commerce.com/wp-content/uploads/2020/01/what-is-e-commerce-SOCIAL.jpg",
       "https://media.licdn.com/dms/image/v2/D5612AQGb8W36OJmN_Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693507910822?e=2147483647&v=beta&t=T77kC_v0ecdEezw0hYTX1jkZ5r-0SzzeWTuCv7sF-eA",
+      "https://www.the-future-of-commerce.com/wp-content/uploads/2020/01/what-is-e-commerce-SOCIAL.jpg",
     ],
-    skills: ["Node.js", "Express", "MongoDB", "GraphQL", "Apollo"],
+    skills: ["React.js", "Redux", "Tailwind", "Spring", "JavaScript"],
     description:
-      "A full-stack MERN application with authentication, RESTful APIs, and a modern UI built using React and Redux. Implements secure user authentication with JWT, a fully functional backend, and an intuitive frontend interface.",
-    github: "https://github.com/your-repo",
+      "Developed a dynamic and responsive e-commerce platform with product browsing, cart management, and checkout features. Streamlined backend development for efficient operations. Designed an intuitive user interface",
+    github: "https://github.com/project-team1241/ecommerce_frontend",
   },
   {
     id: 3,
-    title: "MERN Stack App",
+    title: "Food App",
     images: [
+      "https://img.freepik.com/premium-vector/food-festival-app-interface-template_107173-12512.jpg?ga=GA1.1.370144144.1727452674&semt=ais_incoming",
       "https://www.digitalsilk.com/wp-content/uploads/2020/06/website-development-process-hero-image.png",
       "https://www.digitalsilk.com/wp-content/uploads/2020/06/website-development-process-hero-image.png",
     ],
-    skills: ["Node.js", "Express", "MongoDB", "GraphQL", "Apollo"],
+    skills: ["React.js", "Tailwind", "Redux", "Swiggy API",],
     description:
-      "A full-stack MERN application with authentication, RESTful APIs, and a modern UI built using React and Redux. Implements secure user authentication with JWT, a fully functional backend, and an intuitive frontend interface.",
-    github: "https://github.com/your-repo",
+      "Built a responsive web application displaying food items fetched from an external API, allowing users to view item details and add items to a cart. Optimized state management and ensure seamless updates.",
+    github: "https://github.com/RAJAKALI/food-app-react",
   },
   {
     id: 4,
-    title: "MERN Stack App",
+    title: "Design Column Beam App",
     images: [
+      "https://img.freepik.com/premium-photo/engineer-working-construction-project-using-laptop_1155284-16419.jpg?ga=GA1.1.370144144.1727452674&semt=ais_incoming",
       "https://media.istockphoto.com/id/1301010987/vector/website-programming-and-coding-web-development-and-coding-3d-vector-illustrations.jpg?s=612x612&w=0&k=20&c=gLZUAJPFBu2VuEsdlqCWOgy-Cy859BvTDY17bZ_75r0=",
       "https://media.istockphoto.com/id/1301010987/vector/website-programming-and-coding-web-development-and-coding-3d-vector-illustrations.jpg?s=612x612&w=0&k=20&c=gLZUAJPFBu2VuEsdlqCWOgy-Cy859BvTDY17bZ_75r0=",
     ],
-    skills: ["Node.js", "Express", "MongoDB", "GraphQL", "Apollo"],
+    skills: ["Flutter", "Dart", ],
     description:
-      "A full-stack MERN application with authentication, RESTful APIs, and a modern UI built using React and Redux. Implements secure user authentication with JWT, a fully functional backend, and an intuitive frontend interface.",
-    github: "https://github.com/your-repo",
+      "A mobile application that can calculate safety precautions for columns and beams used for building constructions which indeed help civil engineers to take measure before planning the constructions.",
+    github: "https://github.com/RAJAKALI/Major-Project-CB-Design",
   },
   {
     id: 5,
-    title: "MERN Stack App",
+    title: "Academic Managment System",
     images: [
       "https://media.istockphoto.com/id/1325167730/vector/concept-of-e-learning-online-education-at-home-3d-realistic-vector-illustration.jpg?s=612x612&w=0&k=20&c=Zb62VoUsxZp1jMMxEiHTMuZC2kCmlf7N3QdnRfqfjEQ=",
       "https://media.istockphoto.com/id/1325167730/vector/concept-of-e-learning-online-education-at-home-3d-realistic-vector-illustration.jpg?s=612x612&w=0&k=20&c=Zb62VoUsxZp1jMMxEiHTMuZC2kCmlf7N3QdnRfqfjEQ=",
     ],
-    skills: ["Node.js", "Express", "MongoDB", "GraphQL", "Apollo"],
+    skills: ["Boostrap", "JavaScript", "Css", "Html", "Django"],
     description:
-      "A full-stack MERN application with authentication, RESTful APIs, and a modern UI built using React and Redux. Implements secure user authentication with JWT, a fully functional backend, and an intuitive frontend interface.",
-    github: "https://github.com/your-repo",
+      "An Academics Management System that simplifies the management of tasks like attendance, grades, projects, and assignments. It provides an intuitive portal for administrators and students to efficiently handle course-related activities.",
+    github: "https://github.com/RAJAKALI/Academic-Management-System",
   },
   {
     id: 6,
-    title: "MERN Stack App",
+    title: "F.A.G.V.I.P",
     images: [
-      "https://www.bedigitech.com/img/web-development.jpg",
+      "https://img.freepik.com/free-vector/people-check-money-accounts_74855-4452.jpg?ga=GA1.1.370144144.1727452674&semt=ais_incoming",
       "https://www.bedigitech.com/img/web-development.jpg",
     ],
-    skills: ["Node.js", "Express", "MongoDB", "GraphQL", "Apollo"],
+    skills: ["Python", "OpenCV", "Image Processing", "GTTS",],
     description:
-      "A full-stack MERN application with authentication, RESTful APIs, and a modern UI built using React and Redux. Implements secure user authentication with JWT, a fully functional backend, and an intuitive frontend interface.",
-    github: "https://github.com/your-repo",
+      "A web-based application designed to assist visually impaired users in verifying purchased goods with accuracy. It allows users to capture images, which are processed to provide audio descriptions through speech detection",
+    github: "https://github.com/RAJAKALI/Mini-Project",
   },
 ];
 
